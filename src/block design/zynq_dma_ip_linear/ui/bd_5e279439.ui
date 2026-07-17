@@ -1,0 +1,45 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.720183",
+   "Default View_TopLeft":"972,-539",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:21.0
+#  -string -flagsOSRD
+preplace inst zynq_ultra_ps_e_0 -pg 1 -lvl 1 -x 590 -y -80 -defaultsOSRD
+preplace inst smartconnect_0 -pg 1 -lvl 3 -x 1380 -y -190 -defaultsOSRD
+preplace inst axi_dma_0 -pg 1 -lvl 4 -x 2000 -y -210 -defaultsOSRD
+preplace inst ip_axi_linear_0 -pg 1 -lvl 5 -x 2330 -y -190 -defaultsOSRD
+preplace inst bram_ctrl_dst -pg 1 -lvl 4 -x 2000 -y 280 -defaultsOSRD
+preplace inst bram_ctrl_src -pg 1 -lvl 4 -x 2000 -y 70 -defaultsOSRD
+preplace inst bram_src -pg 1 -lvl 5 -x 2330 -y 100 -defaultsOSRD
+preplace inst bram_dst -pg 1 -lvl 5 -x 2330 -y 280 -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 2 -x 1060 -y 100 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 1 -x 590 -y 100 -defaultsOSRD
+preplace inst xlconstant_1 -pg 1 -lvl 1 -x 590 -y 210 -defaultsOSRD
+preplace inst ip_axi_softmax_0 -pg 1 -lvl 6 -x 2750 -y -170 -defaultsOSRD
+preplace netloc proc_sys_reset_0_interconnect_aresetn 1 2 1 1250 -150n
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 2 4 N 140 1790J -380 2190 -100 2480
+preplace netloc xlconstant_0_dout 1 1 1 880 100n
+preplace netloc xlconstant_1_dout 1 1 1 890 120n
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 0 6 300 10 890 -70 1230 -290 1830 -340 2180 -280 2470
+preplace netloc zynq_ultra_ps_e_0_pl_resetn0 1 1 1 880 -90n
+preplace netloc axi_dma_0_M_AXIS_MM2S 1 4 1 2160 -230n
+preplace netloc axi_dma_0_M_AXI_MM2S 1 2 3 1250 -370 NJ -370 2160
+preplace netloc axi_dma_0_M_AXI_S2MM 1 2 3 1240 -390 NJ -390 2170
+preplace netloc bram_ctrl_dst_BRAM_PORTA 1 4 1 N 280
+preplace netloc bram_ctrl_src_BRAM_PORTA 1 4 1 2200 70n
+preplace netloc smartconnect_0_M00_AXI 1 3 1 1820 -260n
+preplace netloc smartconnect_0_M01_AXI 1 3 2 1810 -330 2200J
+preplace netloc smartconnect_0_M02_AXI 1 3 1 1810 -190n
+preplace netloc smartconnect_0_M03_AXI 1 3 1 1510 -170n
+preplace netloc zynq_ultra_ps_e_0_M_AXI_HPM0_FPD 1 1 2 880 -230 NJ
+preplace netloc smartconnect_0_M04_AXI 1 3 3 1800J -350 NJ -350 2480
+preplace netloc ip_axi_linear_0_M00_AXIS 1 5 1 2460 -190n
+preplace netloc ip_axi_softmax_0_M00_AXIS 1 3 4 1840 -360 NJ -360 NJ -360 2880
+levelinfo -pg 1 0 590 1060 1380 2000 2330 2750 2900
+pagesize -pg 1 -db -bbox -sgen 0 -750 2900 570
+"
+}
+{
+   "da_zynq_ultra_ps_e_cnt":"1"
+}
